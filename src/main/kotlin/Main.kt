@@ -29,4 +29,7 @@ fun main(args: Array<String>) {
     dm.fetchXML()
     dm.unzip()
     dm.makeCSV()
+
+    println("If you running this in IDEA write this URL into browser to get graph: " +
+            "http://localhost:63342/pubmed/pubmed_main/out.html")
 }
